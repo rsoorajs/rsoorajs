@@ -1,15 +1,21 @@
 <h1 align="center">Hi 👋, I'm Tony</h1>
-<h3 align="center">A guy who love to play with codes</h3>
+<h3 align="center">A guy who loves to play with codes</h3>
 
 <p align="left"> <img src="https://komarev.com/ghpvc/?username=telegrambotdev" alt="telegrambotdev" /> </p>
 
-- 🔭 I’m currently working on [Kaffeine](https://github.com/telegrambotdev/Kaffeine-2.0)
+- 🔭 I’m currently working on [Kaffeine 2.0](https://github.com/telegrambotdev/Kaffeine-2.0)
 
 - 🌱 I’m currently learning **python,nodejs,docker**
+
+- 👯 I’m looking to collaborate on [Url Shortner](https://shortnow.tk)
+
+- 🤝 I’m looking for help with [Torrent Leech](https://github.com/telegrambotdev/TorrentLeech-Gdrive)
 
 - 👨‍💻 All of my projects are available at [https://github.com/telegrambotdev](https://github.com/telegrambotdev)
 
 - 💬 Ask me about **Docker**
+
+- 📫 How to reach me **Oops..Not now**
 
 
 <h3 align="left">Connect with me:</h3>
