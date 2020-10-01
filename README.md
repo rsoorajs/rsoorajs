@@ -9,7 +9,7 @@
 
 - 👯 I’m looking to collaborate on [Url Shortner](https://shortnow.tk)
 
-- 🤝 I’m looking for help with [Torrent Leech](https://github-profile-generator.tk)
+- 🤝 I’m looking for help with [Github Profile Generator](https://github-profile-generator.tk)
 
 - 👨‍💻 All of my projects are available at [https://github.com/telegrambotdev](https://github.com/telegrambotdev)
 
