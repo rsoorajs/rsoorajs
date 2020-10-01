@@ -3,13 +3,13 @@
 
 <p align="left"> <img src="https://komarev.com/ghpvc/?username=telegrambotdev" alt="telegrambotdev" /> </p>
 
-- 🔭 I’m currently working on [Kaffeine 2.0](https://github.com/telegrambotdev/Kaffeine-2.0)
+- 🔭 I’m currently working on [Kaffeine 2.0](https://kaffeine.tk)
 
 - 🌱 I’m currently learning **python,nodejs,docker**
 
 - 👯 I’m looking to collaborate on [Url Shortner](https://shortnow.tk)
 
-- 🤝 I’m looking for help with [Torrent Leech](https://github.com/telegrambotdev/TorrentLeech-Gdrive)
+- 🤝 I’m looking for help with [Torrent Leech](https://github-profile-generator.tk)
 
 - 👨‍💻 All of my projects are available at [https://github.com/telegrambotdev](https://github.com/telegrambotdev)
 
