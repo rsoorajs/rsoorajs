@@ -1,5 +1,5 @@
 <h1 align="center">Hi 👋, I'm Tony</h1>
-<h3 align="center">Who loves to play with codes from Ireland</h3>
+<h3 align="center">Who loves to play with codes</h3>
 
 <p align="left"> <img src="https://komarev.com/ghpvc/?username=telegrambotdev&label=Profile%20views&color=0e75b6&style=flat" alt="telegrambotdev" /> </p>
 
