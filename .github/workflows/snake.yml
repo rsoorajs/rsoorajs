@@ -3,7 +3,7 @@ name: Generate Snake Animation
 on:
   # Re-run twice a day so the snake stays current
   schedule:
-    - cron: "0 */12 * * *"
+    - cron: "0 3 * * *"
   # Allow manual runs from the Actions tab
   workflow_dispatch:
   # Run on every push to main
