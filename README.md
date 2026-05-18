@@ -173,7 +173,7 @@ If you are hiring for AI engineering work, or you just want to compare notes, ge
 
 <br/><br/>
 
-<a href="https://linkedin.com/in/soorajsr"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" /></a>
+<a href="https://www.linkedin.com/in/sooraj-sr"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" /></a>
 <a href="https://soorajsr.com"><img src="https://img.shields.io/badge/Portfolio-6366F1?style=for-the-badge&logo=googlechrome&logoColor=white" /></a>
 <a href="mailto:me@soorajsr.com"><img src="https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white" /></a>
 
