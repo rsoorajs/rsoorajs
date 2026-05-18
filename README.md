@@ -134,8 +134,8 @@ A personal assistant that uses hybrid retrieval and the Model Context Protocol, 
 
 <div align="center">
 
-<img height="180em" src="https://github-readme-stats.vercel.app/api?username=rsoorajs&show_icons=true&theme=tokyonight&hide_border=true&include_all_commits=true&count_private=true&bg_color=0D1117&title_color=a855f7&icon_color=8b5cf6&text_color=c9d1d9" />
-<img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=rsoorajs&layout=compact&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=a855f7&text_color=c9d1d9&langs_count=8" />
+<img height="180em" src="https://github-readme-stats-six-bice-27.vercel.app/api?username=rsoorajs&show_icons=true&theme=tokyonight&hide_border=true&include_all_commits=true&count_private=true&bg_color=0D1117&title_color=a855f7&icon_color=8b5cf6&text_color=c9d1d9" />
+<img height="180em" src="https://github-readme-stats-six-bice-27.vercel.app/api/top-langs/?username=rsoorajs&layout=compact&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=a855f7&text_color=c9d1d9&langs_count=8" />
 
 <br/>
 
