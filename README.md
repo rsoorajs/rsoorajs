@@ -21,13 +21,13 @@
 
 ## 🧠 About Me
 
-> Production-focused **AI Engineer** based in Dubai 🇦🇪 — I build and ship LLM-powered products end-to-end, from early architecture decisions through to production deployment and ongoing optimization.
+I am an AI Engineer based in Dubai. I build LLM powered products and take them from the first architecture decision through to a running production system.
 
-- 🤖 Currently a **Generative AI Engineer** at **Gama Security Systems**, building RAG systems, agentic workflows, and copilot features
-- 🏗️ I own the full lifecycle of AI delivery — retrieval architecture, fine-tuning, evaluation pipelines, and cost / latency optimization in production
-- ⚡ Comfortable being *the person who figures it out* — picking the right tools under uncertainty and shipping before requirements are fully defined
-- 🧬 Recently implemented **DeepSeek V2 Lite (15.7B MoE)** entirely from scratch in PyTorch
-- 🌱 Always exploring the frontier of **LLMs, AI agents, and inference optimization**
+- 🤖 I work as a Generative AI Engineer at Gama Security Systems, where I build RAG systems, agent workflows, and copilot features.
+- 🏗️ I handle the full delivery of AI features. That covers retrieval architecture, fine tuning, evaluation pipelines, and keeping cost and latency under control once things are live.
+- ⚡ I am comfortable starting work before the requirements are fully clear. I pick the tools, make a call, and ship something that works.
+- 🧬 I recently built DeepSeek V2 Lite, a 15.7B parameter Mixture of Experts model, from scratch in PyTorch.
+- 🌱 I follow new work in LLMs, AI agents, and inference optimization closely.
 
 <img src="https://capsule-render.vercel.app/api?type=rect&color=0:6366f1,100:a855f7&height=2" width="100%" />
 
@@ -88,27 +88,27 @@
 
 ## 🚀 Featured Projects
 
-### 🧬 Production-Grade LLM System — Custom Transformer with MLA & MoE
+### 🧬 An LLM System Built for Production: Custom Transformer with MLA and MoE
 
-> Implemented **DeepSeek V2 Lite (15.7B MoE / 2.4B active params)** entirely from scratch in PyTorch.
+I built DeepSeek V2 Lite from scratch in PyTorch. It is a 15.7B parameter Mixture of Experts model that keeps 2.4B parameters active per token.
 
-- 🔬 **Multi-head Latent Attention** with 86% KV-cache reduction, a 64-expert MoE (top-6 routing), and YaRN-RoPE positional encoding — verified numerically against the HuggingFace reference
-- 🧮 INT8 quantization bringing inference memory from **31GB → ~16GB** for consumer-hardware deployment, with critical layers selectively protected
-- 🚀 OpenAI-compatible streaming inference server (FastAPI + SSE) backed by **Redis Streams** as a replayable token bus — horizontal scaling with no sticky sessions
-- ☁️ Three-service AWS architecture that cut monthly hosting cost from **~$730 → ~$12** via SageMaker Async Inference and scale-to-zero
+- 🔬 I implemented Multi-head Latent Attention, which cuts the KV cache by 86%. The model runs a 64 expert MoE with top 6 routing and RoPE positional encoding with YaRN scaling. I checked every layer against the HuggingFace reference to confirm the numbers matched.
+- 🧮 I applied INT8 quantization to bring inference memory from 31GB down to around 16GB, so the model runs on consumer hardware. The critical layers stay in full precision to protect output quality.
+- 🚀 I built an OpenAI compatible streaming inference server with FastAPI and SSE. Redis Streams sits behind it as a token bus, so clients can reconnect and replay from their last position, and the server scales without sticky sessions.
+- ☁️ I deployed it as three services on AWS. Separating the code containers from the model weights, then using SageMaker Async Inference with scale to zero, brought the monthly hosting cost from around 730 dollars down to around 12 dollars.
 
-`PyTorch` &nbsp;`FastAPI` &nbsp;`LangGraph` &nbsp;`AWS SageMaker` &nbsp;`Docker` &nbsp;`Terraform` &nbsp;`Redis Streams`
+`PyTorch` `FastAPI` `LangGraph` `AWS SageMaker` `Docker` `Terraform` `Redis Streams`
 
-### 🤝 Production-Grade RAG Personal Assistant with Agentic Reasoning
+### 🤝 A RAG Personal Assistant with Agentic Reasoning
 
-> A hybrid-retrieval, MCP-powered personal assistant with autonomous multi-step reasoning.
+A personal assistant that uses hybrid retrieval and the Model Context Protocol, and handles multi step reasoning on its own.
 
-- 🎯 Hybrid RAG pipeline — dense embeddings + sparse **BM25** + cross-encoder re-ranking — taking retrieval accuracy from **0% → 100%** on a curated evaluation set
-- 🧠 **ReAct agent** (LangGraph) that autonomously selects from 16+ tools via the **Model Context Protocol** for multi-step reasoning chains
-- 🔌 Fully abstracted, swappable components — A/B test RAG configurations through environment variables with zero code changes
-- 🛠️ Deployed on AWS (EC2 + ECR) with Docker, Nginx SSL termination, and a GitHub Actions CI/CD pipeline
+- 🎯 I built a hybrid RAG pipeline that combines dense embeddings, sparse BM25, and a cross encoder for reranking. Retrieval accuracy went from 0% to 100% on a curated evaluation set.
+- 🧠 The assistant runs a ReAct agent on LangGraph. It picks from more than 16 tools through the Model Context Protocol and reasons across several steps.
+- 🔌 Every swappable part sits behind an abstract interface. I can A/B test different RAG setups by changing environment variables, with no code changes.
+- 🛠️ It runs on AWS with EC2 and ECR, Docker for containers, Nginx for SSL, and a GitHub Actions pipeline that tests and deploys on every merge.
 
-`LangGraph` &nbsp;`OpenAI` &nbsp;`Qdrant` &nbsp;`MCP` &nbsp;`Docker` &nbsp;`AWS` &nbsp;`Nginx`
+`LangGraph` `OpenAI` `Qdrant` `MCP` `Docker` `AWS` `Nginx`
 
 <img src="https://capsule-render.vercel.app/api?type=rect&color=0:6366f1,100:a855f7&height=2" width="100%" />
 
@@ -116,15 +116,17 @@
 
 | Role | Company | Period |
 |------|---------|--------|
-| 🤖 **Generative AI Engineer** | Gama Security Systems · Dubai 🇦🇪 | `May 2023 – Present` |
-| 💻 **Full-Stack Developer** | Allianz Technology · India 🇮🇳 | `Apr 2021 – Apr 2023` |
-| 🛠️ **Junior Software Engineer** | Infinite Open Source Solutions · India 🇮🇳 | `Jun 2019 – Apr 2021` |
+| 🤖 **Generative AI Engineer** | Gama Security Systems, Dubai 🇦🇪 | `May 2023 to Present` |
+| 💻 **Full Stack Developer** | Allianz Technology, India 🇮🇳 | `Apr 2021 to Apr 2023` |
+| 🛠️ **Junior Software Engineer** | Infinite Open Source Solutions, India 🇮🇳 | `Jun 2019 to Apr 2021` |
 
-## 🎓 Education & Certifications
+## 🎓 Education and Certifications
 
-- 🎓 **M.Sc. in Computer Science** — Chandigarh University, India · `2023 – 2025`
-- 📜 Supervised Machine Learning: Regression & Classification — *Stanford University*
-- 📜 DevOps Beginners to Advanced — *Udemy*  ·  Microsoft .NET Fundamentals — *Microsoft*  ·  Programming with Python — *Harvard*
+- 🎓 **M.Sc. in Computer Science**, Chandigarh University, India. `2023 to 2025`
+- 📜 Supervised Machine Learning: Regression and Classification, from Stanford University.
+- 📜 DevOps Beginners to Advanced, from Udemy.
+- 📜 Microsoft .NET Fundamentals, from Microsoft.
+- 📜 Programming with Python, from Harvard University.
 
 <img src="https://capsule-render.vercel.app/api?type=rect&color=0:6366f1,100:a855f7&height=2" width="100%" />
 
@@ -165,17 +167,15 @@
 
 <div align="center">
 
-I'm always open to interesting AI/ML problems, collaboration, and conversations about LLM systems.
+I am open to interesting AI and ML problems, and I am happy to talk about building with LLMs.
+
+If you are hiring for AI engineering work, or you just want to compare notes, get in touch.
 
 <br/><br/>
 
 <a href="https://linkedin.com/in/soorajsr"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" /></a>
 <a href="https://soorajsr.com"><img src="https://img.shields.io/badge/Portfolio-6366F1?style=for-the-badge&logo=googlechrome&logoColor=white" /></a>
 <a href="mailto:me@soorajsr.com"><img src="https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white" /></a>
-
-<br/><br/>
-
-<i>"Comfortable being the person who figures it out — designing the architecture, picking the right tools under uncertainty, and shipping a working system."</i>
 
 </div>
 
